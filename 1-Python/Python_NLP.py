@@ -89,6 +89,8 @@ nltk.download("wordnet")
 from nltk.stem.wordnet import WordNetLemmatizer
 lematizer=WordNetLemmatizer()
 lematizer.lemmatize("programed")
+lematizer.lemmatize("coordinating")
+
 
 #chunking->identifies named entities
 nltk.download("maxent_ne_chunker")
